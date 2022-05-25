@@ -15,12 +15,12 @@ function makeNewBox(boxProperties) {
   setBox([...boxs, boxProperties])
 }
 
-return (
-  <div className="App">
-    <BoxForm makeBox={makeNewBox} />
-    {boxs.map((boxProperties, index) => <BoxDisplay key={index} boxProperties={boxProperties} />)}
-  </div>
-);
-}
+// return (
+//   <div className="App">
+//     <BoxForm makeBox={makeNewBox} />
+//     {boxs.map((boxProperties, index) => <BoxDisplay key={index} boxProperties={boxProperties} />)}
+//   </div>
+// );
+// }
 
 export default App;
